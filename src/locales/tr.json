@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "imageAlt": "Eldes hero görseli",
+    "statement": "Yerli sanayimize \ngüvenli elektronik çözümler..."
+  },
+  "header": {
+    "logoAlt": "Eldes logo",
+    "brandName": "ELDES",
+    "companyLegal": "Elektronik Devreler ve Sistemler Limited Şirketi",
+    "tel": "TEL : (216) 574 14 28"
+  },
+  "sections": {
+    "productsTitle": "Ürünlerimiz"
+  },
+  "card": {
+    "documents": "Dokümanlar",
+    "sales": "Satış",
+    "salesPartner": "OTKON Mühendislik ve Elektrik Sanayi Ticaret Limited Şirketi",
+    "expand": "Tümünü gör",
+    "collapse": "Daha az göster"
+  },
+  "footer": {
+    "logoAlt": "Eldes logo",
+    "companyWithYear": "ELDES Elektronik Devreler ve Sistemler Limited Şirketi • 2005",
+    "productsHeading": "ÜRÜNLERİMİZ",
+    "contactHeading": "İLETİŞİM",
+    "mapIframeTitle": "ELDES işyeri konumu, Google Haritalar",
+    "addressLine1": "Küçükbakkalköy Mh. Gül Ağacı Sk. No: 5",
+    "addressLine2": "Özdemir Apt. Daire: 3 Ataşehir İstanbul",
+    "tel": "TEL : (216) 574 14 28",
+    "fax": "FAX : (216) 575 20 81",
+    "taxOffice": "Kozyatağı VD. 3310435662",
+    "email": "info@eldes.com.tr"
+  },
+  "products": [
+    {
+      "id": "stemo4",
+      "title": "STEMO4",
+      "subtitle": "Step Motor Driver",
+      "image": "/images/STEMO4.jpg",
+      "description": "Stemo4, endüstriyel uygulamalarda kullanılan step motorlar için sürücü ve kontrolör özelliğini birleştiren akıllı kontrol elemanıdır.\n\nSürücü özelliği ile kullanıldığında PLC, hareket kontrol kartları veya özel kontrol kartları ile dışarıdan yönetilir ve \"pulse/direction\" modunda çalışır. Bu modda, hareketin kontrolu harici kontrol elemanı tarafından yapılır. Mikrostep seçenekleri ve motor akımı ayarlama seçenekleri mevcuttur.\n\nKontrol özelliği devreye alındığında ise cihazın kendi üzerinde bulunan lojik giriş  çıkışları kullanarak ve bilgisayar arayüzü sayesinde kullanıcı, kendi uygulamasını sürücüye yazar ve makinası için gerekli hareket kontroluna sahip olur. Bu sayede ek bir kontrol elemanına (PLC, hareket kontrol kartı, PC, v.s) ihtiyaç duymaz ve önemli bir maliyet avantajı sağlar.\n\nSürücü yetenekleri, etiket makinası, döner tabla, boy kesme, sabit hızlı besleyiciler gibi pozisyon ve hassas hız kontrolunun gerekli olduğu birçok uygulamayı rahatlıkla destekler.\n\nMODBUS protokolu sayesinde operatör panellerle bağlantısı yapılabilmektedir.\n\nSürücü için geliştirilen Windows tabanlı STEMO-PS arayüz programı sayesinde kullanıcı kendi programlarını kolayca geliştirip sürücüye yükler veya sürücüyü doğrudan kontrol edebilir.\n\nTemel Özellikler:\nİki fazlı (bipolar)  step motorları destekler,\n24 - 48V motor besleme gerilimi, 7 amper(peak) motor faz akımı,\n1/2, 1/4, 1/8, 1/16, 1/32, 1/64, 1/128, 1/256 mikrostep seçebilme,\n16 farklı değerde  motor akımı ayarlayabilme,\n8 lojik giriş (opto coupler), girişler NPN veya PNP olarak ayarlanabilir,\n3 lojik çıkış (transistor),\n2 potansiyometre girişi (referans hız veya timer değeri almak için),\nRS485 ve USB bağlantısı,\nMODBUS protokolu ile operatör panele bağlantı,\nKullanıcı tarafından programlanabilme,\nAşırı sıcaklık koruma.",
+      "docs": [
+        {
+          "label": "Bilgisayar Programı (Deneme)",
+          "href": "/STEMO4/stemo4Setup.msi"
+        },
+        {
+          "label": "Kullanım Kılavuzu",
+          "href": "/STEMO4/Stemo4-Man.pdf"
+        },
+        {
+          "label": "Modbus Bellek Yapısı",
+          "href": "/STEMO4/STEMO4_MODBUS.xlsx"
+        },
+        {
+          "label": "USB Sürücü",
+          "href": "/STEMO4/stsw-stm32102.zip"
+        }
+      ],
+      "sales": "http://www.otkon.com.tr/"
+    },
+    {
+      "id": "gi-usb485",
+      "title": "Galvanik İzolasyonlu USB/RS485 Çevirici",
+      "subtitle": "Galvanic Isolated USB to RS485 Converter",
+      "image": "/images/USE_GI-USB485.jpg",
+      "description": "Saha cihazları ile güvenli haberleşme için galvanik izolasyonlu USB/RS485 dönüştürücü.",
+      "docs": [
+        {
+          "label": "USB/RS485 Dokümanı",
+          "href": "/Gi485/GI-USB485.pdf"
+        },
+        {
+          "label": "USB/RS485/RS422 Dokümanı",
+          "href": "/Gi485/Gi-USB485_5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "gi-usb232",
+      "title": "Galvanik İzolasyonlu USB/RS232 Çevirici",
+      "subtitle": "Galvanic Isolated USB to RS232 Converter",
+      "image": "/images/Gi-USB232.jpg",
+      "description": "USB ile RS232 arayüzleri arasında endüstriyel seviyede izolasyonlu bağlantı sağlar.",
+      "docs": [
+        {
+          "label": "USB/RS232 Dokümanı",
+          "href": "/Gi485/Gi-USB232.pdf"
+        }
+      ]
+    },
+    {
+      "id": "gi485",
+      "title": "Galvanik İzolasyonlu RS232/422/485 Çevirici",
+      "subtitle": "Galvanic Isolated RS232/RS422/RS485 Converter",
+      "image": "/images/gi485lq.jpg",
+      "description": "Farklı seri haberleşme standartları arasında izolasyonlu ve güvenilir dönüşüm sunar.",
+      "docs": [
+        {
+          "label": "RS232/RS422/RS485 Dokümanı",
+          "href": "/Gi485/Gi485.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stemo3",
+      "title": "STEMO3",
+      "subtitle": "Step Motor Driver",
+      "image": "/images/STEMO3lq.JPG",
+      "description": "Stemo3, endüstriyel uygulamalarda kullanılan step motorlar için sürücü ve kontrolör özelliğini birleştiren akıllı kontrol elemanıdır.\n\nSürücü özelliği ile kullanıldığında PLC, hareket kontrol kartları veya özel kontrol kartları ile dışarıdan yönetilir ve \"pulse/direction\" modunda çalışır. Bu modda, hareketin kontrolu harici kontrol elemanı tarafından yapılır. Mikrostep seçenekleri ve motor akımı ayarlama seçenekleri mevcuttur.\n\nKontrol özelliği devreye alındığında ise cihazın kendi üzerinde bulunan lojik giriş  çıkışları kullanarak ve bilgisayar arayüzü sayesinde kullanıcı, kendi uygulamasını sürücüye yazar ve makinası için gerekli hareket kontroluna sahip olur. Bu sayede ek bir kontrol elemanına (PLC, hareket kontrol kartı, PC, v.s) ihtiyaç duymaz ve önemli bir maliyet avantajı sağlar.\n\nSürücü yetenekleri, etiket makinası, döner tabla, boy kesme, sabit hızlı besleyiciler gibi pozisyon ve hassas hız kontrolunun gerekli olduğu birçok uygulamayı rahatlıkla destekler.\n\nMODBUS protokolu sayesinde operatör panellerle bağlantısı yapılabilmektedir.\n\nSürücü için geliştirilen Windows tabanlı STEMO-PS arayüz programı sayesinde kullanıcı kendi programlarını kolayca geliştirip sürücüye yükler veya sürücüyü doğrudan kontrol edebilir.\n\nTemel Özellikler:\nİki fazlı (bipolar)  step motorları destekler,\n24 - 60V motor besleme gerilimi, 7 amper(peak) motor faz akımı,\n1/1, 1/2, 1/4, 1/5, 1/8, 1/10, 1/16, 1/25 mikrostep seçebilme,\n16 farklı değerde  motor akımı ayarlayabilme,\n6 lojik giriş (opto coupler), girişler NPN veya PNP olarak ayarlanabilir,\n2 lojik çıkış (transistor),\n2 potansiyometre girişi (referans hız veya timer değeri almak için),\nRS232 bağlantısı (opsiyonel:RS485, USB),\nMODBUS protokolu ile operatör panele bağlantı,\nKullanıcı tarafından programlanabilme,\nAşırı sıcaklık koruma.",
+      "docs": [
+        {
+          "label": "Broşür",
+          "href": "/stemo/Stemo3.pdf"
+        },
+        {
+          "label": "Bilgisayar Programı",
+          "href": "/stemo/Stemo-ps-W7_v111.zip"
+        },
+        {
+          "label": "Kullanım Kılavuzu",
+          "href": "/stemo/STM_HM_TR_V3_3_Stemo-3_Kullanma_Kilavuzu_Tr.pdf"
+        },
+        {
+          "label": "Programlama Kılavuzu",
+          "href": "/stemo/STM_SM_TR_V3A_Stemo-3_programlama_kilavuzu.pdf"
+        }
+      ],
+      "sales": "http://www.otkon.com.tr/"
+    }
+  ]
+}

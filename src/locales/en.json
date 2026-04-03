@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "imageAlt": "Eldes hero visual",
+    "statement": "Niche, reliable \nelectronics solutions..."
+  },
+  "header": {
+    "logoAlt": "Eldes logo",
+    "brandName": "ELDES",
+    "companyLegal": "Elektronik Devreler ve Sistemler Limited Şirketi",
+    "tel": "TEL : (216) 574 14 28"
+  },
+  "sections": {
+    "productsTitle": "Our Products"
+  },
+  "card": {
+    "documents": "Documents",
+    "sales": "Sales",
+    "salesPartner": "OTKON Mühendislik ve Elektrik Sanayi Ticaret Limited Şirketi",
+    "expand": "View all",
+    "collapse": "Show less"
+  },
+  "footer": {
+    "logoAlt": "Eldes logo",
+    "companyWithYear": "ELDES Elektronik Devreler ve Sistemler Limited Şirketi • 2005",
+    "productsHeading": "OUR PRODUCTS",
+    "contactHeading": "CONTACT",
+    "mapIframeTitle": "ELDES office location on Google Maps",
+    "addressLine1": "Küçükbakkalköy Mh. Gül Ağacı Sk. No: 5",
+    "addressLine2": "Özdemir Apt. Daire: 3 Ataşehir İstanbul",
+    "tel": "TEL : (216) 574 14 28",
+    "fax": "FAX : (216) 575 20 81",
+    "taxOffice": "Kozyatağı VD. 3310435662",
+    "email": "info@eldes.com.tr"
+  },
+  "products": [
+    {
+      "id": "stemo4",
+      "title": "STEMO4",
+      "subtitle": "Step Motor Driver",
+      "image": "/images/STEMO4.jpg",
+      "description": "Stemo4 is a smart control element that combines driver and controller features for stepper motors used in industrial applications.\n\nWhen used with its driver feature, it is managed externally by PLCs, motion control cards, or custom control cards, operating in \"pulse/direction\" mode. In this mode, motion control is performed by the external control element. Microstep options and motor current adjustment settings are available.\n\nWhen the control feature is activated, users can write their own applications to the driver using the device's onboard logic inputs/outputs and the computer interface, gaining necessary motion control for their machinery. This eliminates the need for an additional control element (PLC, motion control card, PC, etc.), providing a significant cost advantage.\n\nIts driver capabilities easily support many applications requiring position and precise speed control, such as labeling machines, rotary tables, cut-to-length systems, and constant-speed feeders.\n\nConnection to operator panels is possible via the MODBUS protocol.\n\nThanks to the Windows-based STEMO-PS interface software developed for the driver, users can easily develop and upload their programs or control the driver directly.\n\nKey Features:\nSupports two-phase (bipolar) stepper motors,\n24 - 48V motor supply voltage, 7 amps (peak) motor phase current,\nSelectable microstepping: 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, 1/128, 1/256,\n16 different motor current adjustment values,\n8 logic inputs (opto-coupler), inputs can be configured as NPN or PNP,\n3 logic outputs (transistor),\n2 potentiometer inputs (for reference speed or timer values),\nRS485 and USB connectivity,\nOperator panel connection via MODBUS protocol,\nUser-programmable,\nOver-temperature protection.",
+      "docs": [
+        {
+          "label": "Software (Trial)",
+          "href": "/STEMO4/stemo4Setup.msi"
+        },
+        {
+          "label": "User Manual",
+          "href": "/STEMO4/Stemo4-Man.pdf"
+        },
+        {
+          "label": "Modbus Memory Map",
+          "href": "/STEMO4/STEMO4_MODBUS.xlsx"
+        },
+        {
+          "label": "USB Driver",
+          "href": "/STEMO4/stsw-stm32102.zip"
+        }
+      ],
+      "sales": "http://www.otkon.com.tr/"
+    },
+    {
+      "id": "gi-usb485",
+      "title": "Galvanic Isolated USB/RS485 Converter",
+      "subtitle": "Galvanic Isolated USB to RS485 Converter",
+      "image": "/images/USE_GI-USB485.jpg",
+      "description": "Galvanic isolated USB/RS485 converter for secure communication with field devices.",
+      "docs": [
+        {
+          "label": "USB/RS485 Document",
+          "href": "/Gi485/GI-USB485.pdf"
+        },
+        {
+          "label": "USB/RS485/RS422 Document",
+          "href": "/Gi485/Gi-USB485_5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "gi-usb232",
+      "title": "Galvanic Isolated USB/RS232 Converter",
+      "subtitle": "Galvanic Isolated USB to RS232 Converter",
+      "image": "/images/Gi-USB232.jpg",
+      "description": "Provides industrial-grade isolated connection between USB and RS232 interfaces.",
+      "docs": [
+        {
+          "label": "USB/RS232 Document",
+          "href": "/Gi485/Gi-USB232.pdf"
+        }
+      ]
+    },
+    {
+      "id": "gi485",
+      "title": "Galvanic Isolated RS232/422/485 Converter",
+      "subtitle": "Galvanic Isolated RS232/RS422/RS485 Converter",
+      "image": "/images/gi485lq.jpg",
+      "description": "Offers isolated and reliable conversion between different serial communication standards.",
+      "docs": [
+        {
+          "label": "RS232/RS422/RS485 Document",
+          "href": "/Gi485/Gi485.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stemo3",
+      "title": "STEMO3",
+      "subtitle": "Step Motor Driver",
+      "image": "/images/STEMO3lq.JPG",
+      "description": "Stemo3 is a smart control element that combines driver and controller features for stepper motors used in industrial applications.\n\nWhen used with its driver feature, it is managed externally by PLCs, motion control cards, or custom control cards, operating in \"pulse/direction\" mode. In this mode, motion control is performed by the external control element. Microstep options and motor current adjustment settings are available.\n\nWhen the control feature is activated, users can write their own applications to the driver using the device's onboard logic inputs/outputs and the computer interface, gaining necessary motion control for their machinery. This eliminates the need for an additional control element (PLC, motion control card, PC, etc.), providing a significant cost advantage.\n\nIts driver capabilities easily support many applications requiring position and precise speed control, such as labeling machines, rotary tables, cut-to-length systems, and constant-speed feeders.\n\nConnection to operator panels is possible via the MODBUS protocol.\n\nThanks to the Windows-based STEMO-PS interface software developed for the driver, users can easily develop and upload their programs or control the driver directly.\n\nKey Features:\nSupports two-phase (bipolar) stepper motors,\n24 - 60V motor supply voltage, 7 amps (peak) motor phase current,\nSelectable microstepping: 1/1, 1/2, 1/4, 1/5, 1/8, 1/10, 1/16, 1/25,\n16 different motor current adjustment values,\n6 logic inputs (opto-coupler), inputs can be configured as NPN or PNP,\n2 logic outputs (transistor),\n2 potentiometer inputs (for reference speed or timer values),\nRS232 connectivity (optional: RS485, USB),\nOperator panel connection via MODBUS protocol,\nUser-programmable,\nOver-temperature protection.",
+      "docs": [
+        {
+          "label": "Brochure",
+          "href": "/stemo/Stemo3.pdf"
+        },
+        {
+          "label": "Software",
+          "href": "/stemo/Stemo-ps-W7_v111.zip"
+        },
+        {
+          "label": "User Manual",
+          "href": "/stemo/STM_HM_TR_V3_3_Stemo-3_Kullanma_Kilavuzu_Tr.pdf"
+        },
+        {
+          "label": "Programming Guide",
+          "href": "/stemo/STM_SM_TR_V3A_Stemo-3_programlama_kilavuzu.pdf"
+        }
+      ],
+      "sales": "http://www.otkon.com.tr/"
+    }
+  ]
+}
